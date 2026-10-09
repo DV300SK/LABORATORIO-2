@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,6 +8,7 @@
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Nombre de actividad -->
     <div class="header">
@@ -17,7 +19,7 @@
             Esta semana de 12 a 14 de Octubre se estara presentando un taller sobre el uso de  <b>Git</b> y se estara hablando sobre la plataforma <b>GitHub</b>.
         </p>
         <nav>
-            <a href="#formulario">Inscribirte</a>
+            <a href="#formulario">Inscribirte al taller</a>
         </nav>
     </div>
 
@@ -39,7 +41,9 @@
             <dt><strong>GitHub</strong></dt>
             <dl>Plataforma de repositorios etc etc.</dl>
         </dl>
-        <p>Para mas informacion:</p>
+
+        <!-- links para mas informacion -->
+        <p>Para mas información acerca de estos conceptos:</p>
         <a href="https://docs.github.com/en/get-started/start-your-journey/what-is-github" target="_blank" rel="noopener noreferrer">Github</a><br>
         <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a>
     </div>
@@ -59,13 +63,19 @@
     <!-- lista ul -->
     
     <!-- seccion de lista -->
-     <h3>Que necesitas para este taller?</h3>
+
+    <h3>Que necesitas para este taller?</h3>
+    
+    <!-- lista desordenada -->
     <ul>
         <li>Laptop</li>
         <li>Conocimiento basico de programacion(cualquier lenguaje de programacion)</li>
         <li>etc</li>
     </ul>
+
     <h3>Que debes tener disponible en tu dispositivo?</h3>
+    
+    <!-- lista ordenada -->
     <ol>
         <li>Tener Git instalado</li>
         <li>Tener VS Code, ya que estara utilizando codigo</li>
@@ -76,6 +86,8 @@
     <h2>Programa del Taller</h2>
     <h3>Se estara presentando en el Centro de Exito Estudiantil</h3>
     <table>
+
+        <!-- Headers de Columnas -->
         <thead>
             <tr>
                 <th>Hora</th>
@@ -83,6 +95,8 @@
                 <th>Tiempo</th>
             </tr>
         </thead>
+
+        <!-- contenido de la tabla -->
         <tbody>
             <tr>
                 <td>8:00am - 9:00am</td>
@@ -107,9 +121,27 @@
 
 
     <!-- seccion de formulario -->
-     <form id="formulario" action="">
-        <label for="nombre"> Su nombre</label>
+    <div class="formulario">
+
+        <!-- Campos de formulario -->
+        <form id="formulario" action="">
+        <label for="nombre"> Nombre:</label>
         <input type="" name="nombre" id="nombre">
-     </form>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="" id="apellido">
+        <label for="numero">Numero de Estudiante:</label>
+        <input type="text" name="" id="numero">
+        <label for="correo">Correo Electronico</label>
+        <input type="email" name="" id=""><br>
+        
+        <!-- Botones de reset y submit -->
+        <div>
+            <input type="reset" name="" id="">
+            <input type="submit" name="" id="">
+        </div>
+        
+        </form>
+    </div>
+
 </body>
 </html>
