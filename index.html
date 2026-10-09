@@ -9,33 +9,46 @@
 </head>
 <body>
     <!-- Nombre de actividad -->
-    <h1>Departamento de Ciencias y Tecnologia</h1>
-    <h1>Actividad Universitaria</h1>
-    <h2>Taller: Uso de versiones de control como Git y plataformas de Github</h2>
-    <p>
-        Esta semana de 12 a 14 de Octubre se estara presentando un taller sobre el uso de  <b>Git</b> y se estara hablando sobre la plataforma <b>Github</b>.
-    </p>
-    <h2>Que es GIT y  que es Github?</h2>
-    <h2>Cual es la diferencia?</h2>
+    <div class="header">
+        <h1>Departamento de Ciencias y Tecnologia</h1>
+        <h1>Actividad Universitaria</h1>
+        <h2>Taller: Uso de versiones de control como Git y plataformas de GitHub</h2>
+        <p>
+            Esta semana de 12 a 14 de Octubre se estara presentando un taller sobre el uso de  <b>Git</b> y se estara hablando sobre la plataforma <b>GitHub</b>.
+        </p>
+        <nav>
+            <a href="#formulario">Inscribirte</a>
+        </nav>
+    </div>
+
+    <div class="glosario">
+        <!-- glosario de terminos tecnicos -->
+        <h2>Que es GIT y  que es GitHub?</h2>
+        <h2>Cual es la diferencia?</h2>
+       
     
-    <!-- seccion de defincion de los conceptos: Git y Github -->
-        <div>
-            <dl>
-                <!-- buscar definiciones exactas -->
-                <dt><strong>Git</strong></dt>
-                <dl>Un sistema control de versiones que permite el manejo de versiones del codigo y rastrear los cambios de este a traves del tiempo.
-                Este sistema permite a muchos programadores colaborar en un solo proyecto de manera eficiente y fluida.
-                </dl><br>
-            
-                <dt><strong>Github</strong></dt>
-                <dl>Plataforma de repositorios etc etc.</dl>
-            </dl>
-        </div>
+    <!-- seccion de defincion de los conceptos: Git y GitHub -->
+    
+        <dl>
+            <!-- buscar definiciones exactas -->
+            <dt><strong>Git</strong></dt>
+            <dl>Un sistema control de versiones que permite el manejo de versiones del codigo y rastrear los cambios de este a traves del tiempo.
+            Este sistema permite a muchos programadores colaborar en un solo proyecto de manera eficiente y fluida.
+            </dl><br>
+        
+            <dt><strong>GitHub</strong></dt>
+            <dl>Plataforma de repositorios etc etc.</dl>
+        </dl>
+        <p>Para mas informacion:</p>
+        <a href="https://docs.github.com/en/get-started/start-your-journey/what-is-github" target="_blank" rel="noopener noreferrer">Github</a><br>
+        <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a>
+    </div>
 
     <!-- video y audio -->
     <video controls width="420">
         <source src="media/2887463-hd_1920_1080_25fps.mp4" type="video/mp4">
         <source src="media/2887463-hd_1920_1080_25fps.ogg" type="video/ogg">
+        tu navegador no soporta el elemento de video.
     </video>
     <audio src="media/lux-aeterna-solitudeexe-547130.mp3" controls></audio><hr>
     
@@ -49,38 +62,52 @@
      <h3>Que necesitas para este taller?</h3>
     <ul>
         <li>Laptop</li>
-        <li>etc</li>
+        <li>Conocimiento basico de programacion(cualquier lenguaje de programacion)</li>
         <li>etc</li>
     </ul>
     <h3>Que debes tener disponible en tu dispositivo?</h3>
     <ol>
         <li>Tener Git instalado</li>
         <li>Tener VS Code, ya que estara utilizando codigo</li>
-        <li>Una cuenta en la plataforma de Github</li>
+        <li>Una cuenta en la plataforma de GitHub</li>
     </ol>
 
     <!-- seccion tabla -->
-    <h2>Que dias se estara dando este taller?</h2>
+    <h2>Programa del Taller</h2>
+    <h3>Se estara presentando en el Centro de Exito Estudiantil</h3>
     <table>
         <thead>
             <tr>
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miercoles</th>
+                <th>Hora</th>
+                <th>Tema</th>
+                <th>Tiempo</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>8:00am - 10:00am</td>
-                <td>9:00am - 11:00am</td>
-                <td>9:30am - 11:30am</td>
+                <td>8:00am - 9:00am</td>
+                <td>Que es Git y GitHub</td>
+                <td>60 minutos</td>
+            </tr>
+            <tr>
+                <td>9:00am - 10:00am</td>
+                <td>Que es Git y GitHub</td>
+                <td>60 minutos</td>
+            </tr>
+            <tr>
+                <td>10:00am - 11:00am</td>
+                <td>Que es Git y GitHub</td>
+                <td>60 minutos</td>
+            </tr>
+            <tr>
+                <td colspan="3" align="left">Total: 3 Horas</td>
             </tr>
         </tbody>
     </table>
 
 
     <!-- seccion de formulario -->
-     <form action="">
+     <form id="formulario" action="">
         <label for="nombre"> Su nombre</label>
         <input type="" name="nombre" id="nombre">
      </form>
