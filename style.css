@@ -1,6 +1,6 @@
 
 body {
-    margin: 0;
+    margin: 1;
     
     color: none;
     font: 1rem/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -8,4 +8,28 @@ body {
 
 main{
     padding: 3rem 1rem;
+}
+
+
+figure{
+    display: flex;
+    flex-flow: column;
+    width: fit-content;
+    margin-top: 5px;
+    
+}
+
+
+.glosario figure{
+    margin: 0;
+    flex: 1;
+}
+
+.glosario #imagen_git{
+    width: 200px;
+}
+
+.glosario figcaption{
+    text-align: center;
+    margin-top: 5px;
 }
