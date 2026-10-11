@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad</title>
+    <title>Taller de Git y GitHub | Actividad Universitaria</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,18 +17,23 @@
         <p>
             Esta semana de 12 a 14 de Octubre se estara presentando un taller sobre el uso de  <b>Git</b> y se estara hablando sobre la plataforma <b>GitHub</b>.
         </p>
+
         <nav>
+            <a href="#glosario">Glosario de terminos</a> |
+            <a href="#programa">Programa del taller</a> |
             <a href="#formulario">Inscribirte al taller</a>
         </nav>
+
     </div>
 
-    <div class="glosario">
+    <hr>
+
+    <section class="glosario">
+        <!-- seccion de defincion de los conceptos: Git y GitHub -->
         <!-- glosario de terminos tecnicos -->
         <h2>Que es GIT y  que es GitHub?</h2>
         <h2>Cual es la diferencia?</h2>
        
-    
-    <!-- seccion de defincion de los conceptos: Git y GitHub -->
     
         <dl>
             <!-- buscar definiciones exactas -->
@@ -46,24 +50,52 @@
         <p>Para mas información acerca de estos conceptos:</p>
         <a href="https://docs.github.com/en/get-started/start-your-journey/what-is-github" target="_blank" rel="noopener noreferrer">Github</a><br>
         <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a>
-    </div>
 
-    <!-- video y audio -->
+            <h2>Conoce mas acerca de estas plataformas al presionar sus iconos:</h2>
+        <figure>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <img src="imagenes/github.jpg" alt="Logotipo negro de GitHub con el símbolo del Octocat y el nombre de la plataforma" width="220">
+                </a>
+    
+                <figcaption>Oprima la imagen para visitar el sitio web de GitHub</figcaption>
+        </figure>
+    
+        <figure>
+            <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
+                <img src="imagenes/file_type_git_icon_130581.png" alt="imagen del icono de git" id="imagen_git">
+            </a>
+            <figcaption>Pagina de Git</figcaption>
+            
+        </figure>
+    
+    </section>
+
+<hr>
+
+
+
+ <!-- video y audio -->
+
+    <h3>Video de código en una pantalla</h3>
     <video controls width="420">
         <source src="media/2887463-hd_1920_1080_25fps.mp4" type="video/mp4">
         <source src="media/2887463-hd_1920_1080_25fps.ogg" type="video/ogg">
         tu navegador no soporta el elemento de video.
     </video>
-    <audio src="media/lux-aeterna-solitudeexe-547130.mp3" controls></audio><hr>
+
+    <h3>Música ambiental para la práctica</h3>
+    <audio src="media/lux-aeterna-solitudeexe-547130.mp3" controls></audio>
+    
+    <hr>
     
     <!-- segundo parrafo -->
-     <h3>Para quien es este taller?</h3>
+     <h2>Para quien es este taller?</h2>
      <p>Este taller es tanto para principiantes como para estudiantes adiestrados en el campo</p>
      <p>Es una habilidad valiosa para aprender y tener bajo un CV(resume), ya que es una habilidad tecnica que las companias buscan dentro de un desarrollador</p>
     <!-- lista ul -->
-    
-    <!-- seccion de lista -->
 
+
+    <!-- seccion de lista -->
     <h3>Que necesitas para este taller?</h3>
     
     <!-- lista desordenada -->
@@ -82,66 +114,80 @@
         <li>Una cuenta en la plataforma de GitHub</li>
     </ol>
 
+    <hr>
+
     <!-- seccion tabla -->
-    <h2>Programa del Taller</h2>
-    <h3>Se estara presentando en el Centro de Exito Estudiantil</h3>
-    <table>
+  <section id="programa">
+        <h2>Programa del Taller</h2>
+        <h3>Se estara presentando en el Centro de Exito Estudiantil</h3>
+        <table>
 
-        <!-- Headers de Columnas -->
-        <thead>
-            <tr>
-                <th>Hora</th>
-                <th>Tema</th>
-                <th>Tiempo</th>
-            </tr>
-        </thead>
+            <!-- Headers de Columnas -->
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Tema</th>
+                    <th>Tiempo</th>
+                </tr>
+            </thead>
 
-        <!-- contenido de la tabla -->
-        <tbody>
-            <tr>
-                <td>8:00am - 9:00am</td>
-                <td>Que es Git y GitHub</td>
-                <td>60 minutos</td>
-            </tr>
-            <tr>
-                <td>9:00am - 10:00am</td>
-                <td>Que es Git y GitHub</td>
-                <td>60 minutos</td>
-            </tr>
-            <tr>
-                <td>10:00am - 11:00am</td>
-                <td>Que es Git y GitHub</td>
-                <td>60 minutos</td>
-            </tr>
-            <tr>
-                <td colspan="3" align="left">Total: 3 Horas</td>
-            </tr>
-        </tbody>
-    </table>
+            <!-- contenido de la tabla -->
+            <tbody>
+                <tr>
+                    <td>8:00am - 9:00am</td>
+                    <td>Que es Git y GitHub</td>
+                    <td>60 minutos</td>
+                </tr>
+                <tr>
+                    <td>9:00am - 10:00am</td>
+                    <td>Que es Git y GitHub</td>
+                    <td>60 minutos</td>
+                </tr>
+                <tr>
+                    <td>10:00am - 11:00am</td>
+                    <td>Que es Git y GitHub</td>
+                    <td>60 minutos</td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="left">Total: 3 Horas</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
+    <hr>
 
     <!-- seccion de formulario -->
-    <div class="formulario">
+     <section id="formulario">
+     <h2>Formulario de Inscripcion</h2>
 
         <!-- Campos de formulario -->
         <form id="formulario" action="">
-        <label for="nombre"> Nombre:</label>
-        <input type="" name="nombre" id="nombre">
-        <label for="apellido">Apellido:</label>
-        <input type="text" name="" id="apellido">
-        <label for="numero">Numero de Estudiante:</label>
-        <input type="text" name="" id="numero">
-        <label for="correo">Correo Electronico</label>
-        <input type="email" name="" id=""><br>
+
+            <label for="nombre"> Nombre:</label>
+            <input type="" name="nombre" id="nombre">
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="" id="apellido">
+
+            <label for="numero">Numero de Estudiante:</label>
+            <input type="text" name="" id="numero">
+
+            <label for="correo">Correo Electronico</label>
+            <input type="email" name="" id="correo">
         
-        <!-- Botones de reset y submit -->
-        <div>
-            <input type="reset" name="" id="">
-            <input type="submit" name="" id="">
-        </div>
-        
+            <label for="comentarios">Comentarios</label>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="40" placeholder="Escribe tus preguntas o necesidades"></textarea>
+            
+            <!-- Botones de reset y submit -->
+            <div>
+                <input type="reset" name="" id="">
+                <input type="submit" name="" id="">
+            </div>
+
         </form>
-    </div>
+     </section>
+
 
 </body>
 </html>
