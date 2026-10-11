@@ -11,25 +11,30 @@ main{
 }
 
 
-figure{
+
+/* seccion de glosario */
+.glosario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+figure {
     display: flex;
     flex-flow: column;
     width: fit-content;
-    margin-top: 5px;
-    
+    margin: 5px 0 0;
 }
 
-
-.glosario figure{
-    margin: 0;
-    flex: 1;
-}
-
-.glosario #imagen_git{
+.glosario img {
+    margin-top: 10px;
+    display: block;
     width: 200px;
+    height: auto;
 }
 
-.glosario figcaption{
+.glosario figcaption {
     text-align: center;
     margin-top: 5px;
 }
