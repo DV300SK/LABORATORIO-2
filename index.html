@@ -14,7 +14,7 @@
         <h1>Departamento de Ciencias y Tecnologia</h1>
         <h1>Actividad Universitaria</h1>
         <h2>Taller: Uso de versiones de control como Git y plataformas de GitHub</h2>
-        <p>
+        <p> 
             Esta semana de 12 a 14 de Octubre se estara presentando un taller sobre el uso de  <b>Git</b> y se estara hablando sobre la plataforma <b>GitHub</b>.
         </p>
 
@@ -71,11 +71,13 @@
  <!-- video y audio -->
 
     <h2>Video de código en una pantalla</h2>
-    <video controls width="420">
-        <source src="media/2887463-hd_1920_1080_25fps.mp4" type="video/mp4">
-        <source src="media/2887463-hd_1920_1080_25fps.ogg" type="video/ogg">
-        tu navegador no soporta el elemento de video.
-    </video>
+    <div class="video">
+        <video controls width="420">
+            <source src="media/2887463-hd_1920_1080_25fps.mp4" type="video/mp4">
+            <source src="media/2887463-hd_1920_1080_25fps.ogg" type="video/ogg">
+            tu navegador no soporta el elemento de video.
+        </video>
+    </div>
 
     <h2>Música ambiental para la práctica</h2>
     <audio src="media/lux-aeterna-solitudeexe-547130.mp3" controls></audio>
@@ -150,13 +152,18 @@
     </section>
 
     <hr>
+    <!-- Seccion de Iframe con Mapa -->
+    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.379441286013!2d-66.76189171114771!3d18.47456801832051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c02e709b2cd0ceb%3A0x3c2f70f3b52b3c74!2sUniversidad%20Interamericana%20de%20Puerto%20Rico%20-%20Recinto%20de%20Arecibo!5e0!3m2!1ses-419!2spr!4v1791837115505!5m2!1ses-419!2spr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+
+    </iframe>
+    <hr>
 
     <!-- seccion de formulario -->
      <section class ="formulario">
      <h2>Formulario de Inscripcion</h2>
 
         <!-- Campos de formulario -->
-        <form action="">
+        <form action="index.html" method="get">
 
             <label for="nombre"> Nombre:</label>
             <input type="" name="nombre" id="nombre">

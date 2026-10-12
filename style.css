@@ -18,6 +18,7 @@ main{
     flex-wrap: wrap;
     gap: 1rem;
     align-items: flex-start;
+    margin-bottom: 10px;
 }
 
 figure {
@@ -38,3 +39,38 @@ figure {
     text-align: center;
     margin-top: 5px;
 }
+
+/* seccion de tabla */
+
+table{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+
+.tabla th{
+    background-color: aliceblue;
+}
+
+tbody tr:hover {
+  background: #f1f5f9;
+}
+
+/* seccion del mapa */
+#mapa{
+    align-items: center;
+}
+
+/* seccion video */
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    
+}
+
+/* seccion de formulario */
