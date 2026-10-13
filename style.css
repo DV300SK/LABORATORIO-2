@@ -74,3 +74,20 @@ tbody tr:hover {
 }
 
 /* seccion de formulario */
+.formulario{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.formulario input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+}
+
+.botones{
+    display: flex;
+    gap: 5px;
+}

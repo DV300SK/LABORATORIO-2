@@ -19,9 +19,9 @@
         </p>
 
         <nav>
-            <a href="#glosario">Glosario de términos</a> |
-            <a href="#programa">Programa del taller</a> |
-            <a href="#formulario">Inscribirte al taller</a>
+            <a href="#definiciones">Glosario de términos</a> |
+            <a href="#programa_de_taller">Programa del taller</a> |
+            <a href="#formulario_campos">Inscribirte al taller</a>
         </nav>
 
     </div>
@@ -31,7 +31,7 @@
     <section class="glosario">
         <!-- seccion de defincion de los conceptos: Git y GitHub -->
         <!-- glosario de terminos tecnicos -->
-        <h2>Que es GIT y  que es GitHub?</h2>
+        <h2 id="definiciones">Que es GIT y  que es GitHub?</h2>
         <h2>Cual es la diferencia?</h2>
        
     
@@ -64,7 +64,7 @@
     
     </section>
 
-<hr>
+    <hr>
 
 
 
@@ -88,8 +88,7 @@
      <h2>Para quien es este taller?</h2>
      <p>Este taller es tanto para principiantes como para estudiantes adiestrados en el campo</p>
      <p>Es una habilidad valiosa para aprender y tener bajo un CV(resume), ya que es una habilidad tecnica que las companias buscan dentro de un desarrollador</p>
-    <!-- lista ul -->
-
+    
 
     <!-- seccion de lista -->
     <h2>Que necesitas para este taller?</h2>
@@ -114,7 +113,7 @@
 
     <!-- seccion tabla -->
   <section class= "programa">
-        <h2>Programa del Taller</h2>
+        <h2 id="programa_de_taller">Programa del Taller</h2>
         <h2>Se estara presentando en el Centro de Éxito Estudiantil</h2>
         <table class="tabla">
 
@@ -160,7 +159,7 @@
 
     <!-- seccion de formulario -->
      <section class ="formulario">
-     <h2>Formulario de Inscripcion</h2>
+     <h2 id="formulario_campos">Formulario de Inscripción</h2>
 
         <!-- Campos de formulario -->
         <form action="index.html" method="get">
@@ -171,17 +170,17 @@
             <label for="apellido">Apellido:</label>
             <input type="text" name="apellido" id="apellido">
 
-            <label for="numero">Numero de Estudiante:</label>
+            <label for="numero">Número de Estudiante:</label>
             <input type="text" name="numero id="numero">
 
-            <label for="correo">Correo Electronico</label>
+            <label for="correo">Correo Electrónico</label>
             <input type="email" name="correo" id="correo">
         
             <label for="comentarios">Comentarios</label>
             <textarea id="comentarios" name="comentarios" rows="4" cols="40" placeholder="Escribe tus preguntas o necesidades"></textarea>
             
             <!-- Botones de reset y submit -->
-            <div>
+            <div class="botones">
                 <input type="reset" name="" id="">
                 <input type="submit" name="" id="">
             </div>
