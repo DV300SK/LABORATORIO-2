@@ -1,5 +1,6 @@
+
 body {
-    margin: 0;
+    margin: 1;
     
     color: none;
     font: 1rem/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -7,4 +8,86 @@ body {
 
 main{
     padding: 3rem 1rem;
+}
+
+
+
+/* seccion de glosario */
+.glosario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    width: fit-content;
+    margin: 5px 0 0;
+}
+
+.glosario img {
+    margin-top: 10px;
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+.glosario figcaption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* seccion de tabla */
+
+table{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+
+.tabla th{
+    background-color: aliceblue;
+}
+
+tbody tr:hover {
+  background: #f1f5f9;
+}
+
+/* seccion del mapa */
+#mapa{
+    align-items: center;
+}
+
+/* seccion video */
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    
+}
+
+/* seccion de formulario */
+.formulario{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.formulario input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+}
+
+.botones{
+    display: flex;
+    gap: 5px;
 }
