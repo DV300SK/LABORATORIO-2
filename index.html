@@ -43,7 +43,14 @@
         
             <dt><strong>GitHub:</strong></dt>
             <dd>GiHub es una plataforma para almacenar, compartir y colaborar en proyectos de software. Funcionando a la par con GIT, este permite que numerosos desarrolladores puedan trabajar en un solo proyecto de manera organizada</dd>
-        </dl><br>
+        
+            <dt><strong>Repositorio:</strong></dt>
+            <dd>
+                Conjunto de archivos de un proyecto y el historial de sus cambios.
+            </dd>
+        </dl>
+        
+        <br>
 
         <!-- links para mas informacion -->
         <h2>Conoce mas acerca de estas plataformas al presionar sus iconos:</h2>
@@ -64,7 +71,7 @@
     
     </section>
 
-    <hr>
+<hr>
 
 
 
@@ -73,31 +80,44 @@
     <h2>Video de código en una pantalla</h2>
     <div class="video">
         <video controls width="420">
-            <source src="media/2887463-hd_1920_1080_25fps.mp4" type="video/mp4">
-            <source src="media/2887463-hd_1920_1080_25fps.ogg" type="video/ogg">
+            <source src="media/video-codigo.mp4" type="video/mp4">
             tu navegador no soporta el elemento de video.
         </video>
+
+        <p>Video de Bedrijfsfilmspecialist.nl, disponible en <a href="https://www.pexels.com/video/a-computer-monitor-flashing-digital-information-2887463/"
+            targ    ="_blank" rel="noopener noreferrer">Pexels</a>.</p>
     </div>
 
+
+<br>
+
     <h2>Música ambiental para la práctica</h2>
-    <audio src="media/lux-aeterna-solitudeexe-547130.mp3" controls></audio>
-    
+    <audio controls>
+    <source src="media/audio-ambiente.mp3" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <p>Música: Solitude.exe, de Lux-aeterna, publicada en
+    <a href="https://pixabay.com/music/ambient-solitudeexe-547130/"
+       target="_blank" rel="noopener noreferrer">Pixabay</a>.</p>
+
     <hr>
     
     <!-- segundo parrafo -->
      <h2>Para quien es este taller?</h2>
-     <p>Este taller es tanto para principiantes como para estudiantes adiestrados en el campo</p>
-     <p>Es una habilidad valiosa para aprender y tener bajo un CV(resume), ya que es una habilidad tecnica que las companias buscan dentro de un desarrollador</p>
-    
+     <p>Este taller es tanto para principiantes como para estudiantes adiestrados en el campo.</p>
+     <p>Es una habilidad valiosa para aprender y tener bajo un CV (resumé), ya que es una habilidad tecnica que las compañias buscan dentro de un desarrollador.</p>
 
-    <!-- seccion de lista -->
+    
+     <!-- seccion de lista -->
+    
     <h2>Que necesitas para este taller?</h2>
     
     <!-- lista desordenada -->
     <ul>
         <li>Laptop</li>
-        <li>Conocimiento basico de programacion(cualquier lenguaje de programacion)</li>
-        <li>etc</li>
+        <li>Conocimiento básico de programacion (cualquier lenguaje de programacion)</li>
+        <li>Conocimiento básico de utilización del terminal</li>
     </ul>
 
     <h2>Que debes tener disponible en tu dispositivo?</h2>
@@ -105,57 +125,75 @@
     <!-- lista ordenada -->
     <ol>
         <li>Tener Git instalado</li>
-        <li>Tener VS Code, ya que estara utilizando codigo</li>
+        <li>Tener VS Code, ya que estara utilizando código</li>
         <li>Una cuenta en la plataforma de GitHub</li>
     </ol>
 
-    <hr>
+
+<hr>
 
     <!-- seccion tabla -->
-  <section class= "programa">
+  <section id="programa" class= "programa">
         <h2 id="programa_de_taller">Programa del Taller</h2>
-        <h2>Se estara presentando en el Centro de Éxito Estudiantil</h2>
+        <h3>Se estara presentando en el Centro de Éxito Estudiantil</h3>
         <table class="tabla">
-
-            <!-- Headers de Columnas -->
             <thead>
                 <tr>
-                    <th>Hora</th>
-                    <th>Tema</th>
-                    <th>Tiempo</th>
+                    <th scope="col">Hora</th>
+                    <th scope="col">Actividad</th>
+                    <th scope="col">Lugar</th>
                 </tr>
             </thead>
 
-            <!-- contenido de la tabla -->
             <tbody>
                 <tr>
-                    <td>8:00am - 9:00am</td>
-                    <td>Que es Git y GitHub?</td>
-                    <td>60 minutos</td>
+                    <td>8:00 a. m. - 9:00 a. m.</td>
+                    <td>Qué son Git y GitHub</td>
+                    <td>Centro de Éxito Estudiantil</td>
                 </tr>
                 <tr>
-                    <td>9:00am - 10:00am</td>
-                    <td>Como funciona el control de versiones</td>
-                    <td>60 minutos</td>
+                    <td>9:00 a. m. - 10:00 a. m.</td>
+                    <td>Cómo funciona el control de versiones</td>
+                    <td>Centro de Éxito Estudiantil</td>
                 </tr>
                 <tr>
-                    <td>10:00am - 11:00am</td>
-                    <td>Creacion de tu primer repositorio en GitHub y subir la primera version de tu codigo utilizando Git</td>
-                    <td>60 minutos</td>
-                </tr>
-                <tr>
-                    <td colspan="3">Total: 3 Horas</td>
+                    <td>10:00 a. m. - 11:00 a. m.</td>
+                    <td>Creación de un repositorio y publicación del código</td>
+                    <td>Centro de Éxito Estudiantil</td>
                 </tr>
             </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total: 3 horas.</td>
+                </tr>
+            </tfoot>
         </table>
+
     </section>
 
-    <hr>
-    <!-- Seccion de Iframe con Mapa -->
-    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.379441286013!2d-66.76189171114771!3d18.47456801832051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c02e709b2cd0ceb%3A0x3c2f70f3b52b3c74!2sUniversidad%20Interamericana%20de%20Puerto%20Rico%20-%20Recinto%20de%20Arecibo!5e0!3m2!1ses-419!2spr!4v1791837115505!5m2!1ses-419!2spr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
 
+<hr>
+
+    <!-- Programa del evento mostrado como PDF. -->
+    <section id="documento">
+        <h2>Documento del programa</h2>
+        <object data="documentos/documento.pdf" type="application/pdf" width="600" height="450">
+            <p>Tu navegador no puede mostrar el PDF aquí.
+                <a href="documentos/documento.pdf" target="_blank">Abrir el programa del taller</a>.</p>
+        </object>
+    </section>
+
+
+<hr>
+   
+    <!-- Seccion de Iframe con Mapa -->
+     <h2>Ubicación</h2>
+    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.379441286013!2d-66.76189171114771!3d18.47456801832051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c02e709b2cd0ceb%3A0x3c2f70f3b52b3c74!2sUniversidad%20Interamericana%20de%20Puerto%20Rico%20-%20Recinto%20de%20Arecibo!5e0!3m2!1ses-419!2spr!4v1791837115505!5m2!1ses-419!2spr" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
     </iframe>
-    <hr>
+
+<hr>
 
     <!-- seccion de formulario -->
      <section class ="formulario">
@@ -165,29 +203,59 @@
         <form action="index.html" method="get">
 
             <label for="nombre"> Nombre:</label>
-            <input type="" name="nombre" id="nombre">
+            <input type="text" name="nombre" id="nombre" required>
 
-            <label for="apellido">Apellido:</label>
-            <input type="text" name="apellido" id="apellido">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" id="apellidos" required>
 
             <label for="numero">Número de Estudiante:</label>
-            <input type="text" name="numero id="numero">
+            <input type="text" name="numero" id="numero" required>
 
             <label for="correo">Correo Electrónico</label>
-            <input type="email" name="correo" id="correo">
+            <input type="email" name="correo" id="correo" placeholder="correo@ejemplo.com" required>
         
+            
+    <label for="año">Año de estudio:</label><br>
+    <input type="number" name="año" id="año" min="1">
+
+
+        <fieldset>
+            <legend>Tipo de participante</legend>
+
+            
+            <label for="estudiante">Estudiante</label>
+            <input type="radio" name="participante" id="estudiante" value="estudiante">
+                
+            <label for="visitante">Visitante</label>
+            <input type="radio" name="participante" id="visitante" value="visitante">
+        </fieldset>
+
+        <fieldset>
+            <legend>Talleres de interés</legend>
+
+            <label for="taller_git">Git y control de versiones</label>
+            <input type="checkbox" name="talleres" id="taller_git" value="git">
+     
+            <label for="taller_github">GitHub y colaboración</label>
+            <input type="checkbox" name="talleres" id="taller_github" value="github">
+        </fieldset>
+
             <label for="comentarios">Comentarios</label>
             <textarea id="comentarios" name="comentarios" rows="4" cols="40" placeholder="Escribe tus preguntas o necesidades"></textarea>
             
             <!-- Botones de reset y submit -->
             <div class="botones">
-                <input type="reset" name="" id="">
-                <input type="submit" name="" id="">
+                <input type="reset" name="limpiar" id="limpiar">
+                <input type="submit" name="enviar" id="enviar">
             </div>
 
         </form>
      </section>
 
+     <hr>
+     
+<!-- Canvas con el mensaje de despedida -->
+     <canvas id="lienzo" width="360" height="90">¡Gracias por visitarnos!</canvas>
 
 </body>
 </html>
